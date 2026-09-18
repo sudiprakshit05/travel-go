@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Travel Go</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+    <h2>Travel Go</h2>
+
+    <ul id="nav-links">
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#gallery">Galleries</a></li>
+    </ul>
+
+    <button class="book-btn">Book trip</button>
+
+    <div class="menu-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+</nav>
+    <div class="herosection">
+
+    <div class="hero-content">
+        <h1>Your Next Adventure Begins Here</h1>
+
+        <p>
+            From breathtaking mountains and pristine beaches to vibrant cities
+            and cultural wonders, Journey Hub helps you discover unforgettable
+            destinations and create memories that last a lifetime.
+        </p>
+
+        <div class="btns">
+            <button class="explore-btn">Explore Destinations</button>
+            <button class="package-btn">Packages</button>
+        </div>
+        <div class="stats">
+
+            <div class="stat">
+                <h2>150+</h2>
+                <p>Destinations</p>
+            </div>
+
+            <div class="stat">
+                <h2>10K+</h2>
+                <p>Travelers</p>
+            </div>
+
+            <div class="stat">
+                <h2>500+</h2>
+                <p>Packages</p>
+            </div>
+
+            <div class="stat">
+                <h2>4.9★</h2>
+                <p>Ratings</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/pic2.jpg" alt="Travel Image">
+    </div>
+
+    </div>
+    <section class="destinations" id="destinations">
+
+    <div class="section-title">
+        <h2>Popular Destinations</h2>
+        <p>
+            Explore the world's most loved travel destinations carefully
+            selected for unforgettable experiences.
+        </p>
+    </div>
+
+    <div class="destination-grid">
+
+        <div class="destination-card">
+            <img src="assets/bali.avif" alt="Bali">
+            <div class="card-content">
+                <h3>Bali, Indonesia</h3>
+                <p>🏝 Tropical Paradise</p>
+
+                <div class="card-footer">
+                    <span>⭐ 4.9</span>
+                    <span>From $599</span>
+                </div>
+
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="assets/paris.jpg" alt="Paris">
+            <div class="card-content">
+                <h3>Paris, France</h3>
+                <p>🗼 City of Love</p>
+
+                <div class="card-footer">
+                    <span>⭐ 4.8</span>
+                    <span>From $799</span>
+                </div>
+
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="assets/swidzerland.jpg" alt="Switzerland">
+            <div class="card-content">
+                <h3>Switzerland</h3>
+                <p>🏔 Snow Mountains</p>
+
+                <div class="card-footer">
+                    <span>⭐ 4.9</span>
+                    <span>From $999</span>
+                </div>
+
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="assets/maldivs.jpg" alt="Maldives">
+            <div class="card-content">
+                <h3>Maldives</h3>
+                <p>🌊 Luxury Beaches</p>
+
+                <div class="card-footer">
+                    <span>⭐ 5.0</span>
+                    <span>From $899</span>
+                </div>
+
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="assets/japan.jpg" alt="Japan">
+            <div class="card-content">
+                <h3>Tokyo, Japan</h3>
+                <p>🌸 Cherry Blossoms</p>
+
+                <div class="card-footer">
+                    <span>⭐ 4.8</span>
+                    <span>From $1099</span>
+                </div>
+
+                <button>Explore</button>
+            </div>
+        </div>
+
+        <div class="destination-card">
+            <img src="assets/dubai.jpg" alt="Dubai">
+            <div class="card-content">
+                <h3>Dubai, UAE</h3>
+                <p>🏙 Luxury City</p>
+
+                <div class="card-footer">
+                    <span>⭐ 4.7</span>
+                    <span>From $699</span>
+                </div>
+
+                <button>Explore</button>
+            </div>
+        </div>
+
+    </div>
+
+    </section>
+    <!-- Packages Section -->
+
+<section class="packages" id="packages">
+
+    <div class="section-title">
+        <h1>Our Travel Packages</h1>
+        <p>Choose the perfect package for your next adventure</p>
+    </div>
+
+
+    <div class="package-container">
+
+        <div class="package-card">
+            <img src="assets/paris.jpg" alt="Paris">
+
+            <div class="package-content">
+                <h2>Paris Tour</h2>
+                <p>Experience the beauty of Paris with our premium package.</p>
+
+                <div class="details">
+                    <span>5 Days</span>
+                    <span>4 Nights</span>
+                </div>
+
+                <h3>$899</h3>
+
+                <button>Book Now</button>
+            </div>
+        </div>
+
+
+
+        <div class="package-card">
+            <img src="assets/maldivs.jpg" alt="Maldives">
+
+            <div class="package-content">
+                <h2>Maldives Trip</h2>
+                <p>Relax on beautiful beaches with a luxury stay.</p>
+
+                <div class="details">
+                    <span>6 Days</span>
+                    <span>5 Nights</span>
+                </div>
+
+                <h3>$1299</h3>
+
+                <button>Book Now</button>
+            </div>
+        </div>
+
+
+
+
+        <div class="package-card">
+            <img src="assets/bali.avif" alt="Bali">
+
+            <div class="package-content">
+                <h2>Bali Adventure</h2>
+                <p>Enjoy nature, beaches and exciting activities.</p>
+
+                <div class="details">
+                    <span>7 Days</span>
+                    <span>6 Nights</span>
+                </div>
+
+                <h3>$1099</h3>
+
+                <button>Book Now</button>
+            </div>
+        </div>
+
+
+
+        <div class="package-card">
+            <img src="assets/swidzerland.jpg" alt="Switzerland">
+
+            <div class="package-content">
+                <h2>Swiss Alps</h2>
+                <p>Explore mountains and beautiful landscapes.</p>
+
+                <div class="details">
+                    <span>8 Days</span>
+                    <span>7 Nights</span>
+                </div>
+
+                <h3>$1599</h3>
+
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="load-more-container">
+    <button class="load-more-btn">Load More</button>
+</div>
+<!-- Gallery Section -->
+
+<section class="gallery" id="gallery">
+
+    <div class="section-title">
+        <h1>Our Travel Gallery</h1>
+        <p>Explore beautiful moments from our journeys</p>
+    </div>
+
+
+    <div class="gallery-container">
+
+        <div class="gallery-item">
+            <img src="assets/nelson-ndongala-jNUTiYlPMHI-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/jim-divine-qpQ7NQ2CXA4-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/juan-rojas-M62J7DBZ-hY-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/johannes-hofmann-PM5a_R83-YQ-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/jairph-1XLyzi17Z2M-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/jack-ward-rknrvCrfS1k-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/ryan-spencer-XGKaRnWjv1c-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+        <div class="gallery-item">
+            <img src="assets/tom-barrett-M0AWNxnLaMw-unsplash.jpg" alt="Travel Image">
+        </div>
+
+
+    </div>
+
+
+    <div class="load-more-container">
+        <button class="load-more-btn">Load More</button>
+    </div>
+
+
+</section>
+</section>
+    <section id="why-us" class="why-us">
+
+    <div class="section-title">
+        <h2>Why Choose Journey Hub?</h2>
+        <p>
+            We make every journey memorable by providing affordable packages,
+            trusted services, and unforgettable travel experiences across the world.
+        </p>
+    </div>
+
+    <div class="features">
+
+        <div class="feature-card">
+            <div class="feature-icon">🌍</div>
+
+            <h3>150+ Destinations</h3>
+
+            <p>
+                Explore breathtaking destinations across Asia, Europe,
+                America, Africa, and beyond.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">💰</div>
+
+            <h3>Best Price Guarantee</h3>
+
+            <p>
+                Get premium travel experiences at the most competitive prices
+                with no hidden charges.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🛡️</div>
+
+            <h3>Safe & Secure Trips</h3>
+
+            <p>
+                Your safety is our highest priority with verified hotels,
+                trusted guides, and secure bookings.
+            </p>
+        </div>
+
+        <div class="feature-card">
+            <div class="feature-icon">🎧</div>
+
+            <h3>24/7 Customer Support</h3>
+
+            <p>
+                Our travel experts are available around the clock to assist
+                you before and during your journey.
+            </p>
+        </div>
+
+    </div>
+
+    </section>
+    <section id="about" class="about">
+
+    <div class="about-image">
+        <img src="assets/team.jpg" alt="About Journey Hub">
+    </div>
+
+    <div class="about-content">
+
+        <span>ABOUT US</span>
+
+        <h2>
+            We Make Every Journey
+            An Unforgettable Experience
+        </h2>
+
+        <p>
+            At Journey Hub, we believe that traveling is more than just visiting
+            new places—it's about creating memories, experiencing different
+            cultures, and discovering the beauty of the world. Our dedicated team
+            is committed to providing exceptional travel experiences tailored to
+            your dreams.
+        </p>
+
+        <p>
+            From luxurious beach vacations and adventurous mountain treks to
+            cultural city tours and romantic getaways, we offer carefully
+            curated travel packages designed for every type of traveler.
+        </p>
+
+        <div class="about-features">
+
+            <div class="feature">
+                ✔ Trusted Travel Agency
+            </div>
+
+            <div class="feature">
+                ✔ Experienced Tour Guides
+            </div>
+
+            <div class="feature">
+                ✔ Affordable Packages
+            </div>
+
+            <div class="feature">
+                ✔ 24/7 Customer Support
+            </div>
+
+        </div>
+
+        <button class="about-btn">
+            Learn More
+        </button>
+
+    </div>
+
+    </section>
+    <!-- Contact Section -->
+
+<section class="contact" id="contact">
+
+    <div class="section-title">
+        <h1>Contact Us</h1>
+        <p>Have questions? We would love to hear from you.</p>
+    </div>
+
+
+    <div class="contact-container">
+
+
+        <div class="contact-info">
+
+            <h2>Get In Touch</h2>
+
+            <p>
+                Feel free to contact us for any travel queries,
+                booking assistance, or customized packages.
+            </p>
+
+
+            <div class="info-box">
+                <span>📍</span>
+                <div>
+                    <h3>Address</h3>
+                    <p>123 Travel Street, Kolkata, India</p>
+                </div>
+            </div>
+
+
+            <div class="info-box">
+                <span>📞</span>
+                <div>
+                    <h3>Phone</h3>
+                    <p>+91 98765 43210</p>
+                </div>
+            </div>
+
+
+            <div class="info-box">
+                <span>✉</span>
+                <div>
+                    <h3>Email</h3>
+                    <p>info@travelgo.com</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="contact-form">
+
+            <form>
+
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <input type="text" placeholder="Subject" required>
+
+                <textarea rows="5" placeholder="Your Message"></textarea>
+
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+</section>
+<!-- Footer Section -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+
+        <div class="footer-box">
+
+            <h2>TravelGo</h2>
+
+            <p>
+                Discover amazing destinations, create unforgettable memories,
+                and explore the world with us.
+            </p>
+
+        </div>
+
+
+
+        <div class="footer-box">
+
+            <h3>Quick Links</h3>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destination">Destinations</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+
+
+
+        <div class="footer-box">
+
+            <h3>Services</h3>
+
+            <ul>
+                <li><a href="#">Flight Booking</a></li>
+                <li><a href="#">Hotel Booking</a></li>
+                <li><a href="#">Tour Packages</a></li>
+                <li><a href="#">Travel Guide</a></li>
+            </ul>
+
+        </div>
+
+
+
+
+        <div class="footer-box">
+
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Youtube</a>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 TravelGo. All Rights Reserved.
+        </p>
+
+    </div>
+
+
+</footer>
+
+<script src="app.js">
+</script>
+</body>
+</html>
