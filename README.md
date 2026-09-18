@@ -76,7 +76,7 @@ Travel-Go/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/travel-go.git
+git clone https://github.com/sudiprakshit05/travel-go.git
 ```
 
 ### 2. Open the Project
